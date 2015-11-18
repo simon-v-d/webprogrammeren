@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<script>
+    var bezorgkosten = 3.95;
+    var aankoopbedrag = prompt("Wat is het aankoopbedrag?", "Vul hier het aankoopsbedrag in");
+    var betaalbedrag;
+
+    if (aankoopbedrag >= 25) {
+        alert("uw kosten zijn" + aankoopbedrag)
+    }
+
+    else {
+      var betaalbedrag = parseFloat(aankoopbedrag) + bezorgkosten;
+        alert("Uw kosten zijn " + betaalbedrag);
+    }
+
+
+
+</script>
+
+</body>
+</html>
